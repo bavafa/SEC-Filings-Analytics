@@ -2,10 +2,6 @@
 # coding: utf-8
 
 # ### BAIT 508 Project 1: SEC Filings Analytics
-# 
-# 
-# - In this assignment, you will use your Python skills (`pandas`, `matplotlib`, `for` loop, `if` condition, ...) to analyze SEC filings.
-# - There are short-answer questions and visualization questions. 
 
 # ### Import the appropriate library you need to solve the questions.
 
@@ -15,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# ### Please assign the variables `first_name`, `last_name`, `student_id`, and `email` with your first name, last name, student ID, and email address.
+# ### Assigning the variables `first_name`, `last_name`, `student_id`, and `email` with your first name, last name, student ID, and email address.
 
 
 first_name = str("Meysam")
@@ -25,8 +21,7 @@ email = str("meysam.bavafa@gmail.com")
 
 
 # ##### Question 1: Find the number of characters in this file and assign it to the `ans1` variable.
-# - Download `feed_header_2017-2019.tsv` file into the same directory, where `hw1_starter.ipynb` is located. (If not, there will be an extra deduction on your grade)
-# - Open `feed_header_2017-2019.tsv` file with `read-only` file mode.
+# - Data `feed_header_2017-2019.tsv` 
 
 ans = []
 
